@@ -7,10 +7,6 @@
    ],
    "template-type": "react",
    "build": {
-      "transpile": {
-         "enabled": true,
-         "src": "src/main.js",
-         "dist": "www/dist.js"
-      }
+      "transpile": true
    }
 }
