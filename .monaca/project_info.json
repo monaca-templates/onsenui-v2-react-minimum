@@ -12,7 +12,9 @@
     "template-type": "react",
     "build": {
         "transpile": {
-            "enabled": true
+            "enabled": true,
+            "webpack_version": 2,
+            "is_ejected": false 
         }
     },
     "xcode_version": "7"
