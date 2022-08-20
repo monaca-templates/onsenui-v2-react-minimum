@@ -11,7 +11,7 @@
     "react-onsenui": "~1.13.0"
   },
   "scripts": {
-    "monaca:preview": "npm run dev",
+    "monaca:preview": "npm run dev & npm run watch",
     "monaca:transpile": "npm run build",
     "monaca:debug": "npm run watch",
     "dev": "cross-env NODE_ENV=development vite",
