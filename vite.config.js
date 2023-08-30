@@ -1,6 +1,6 @@
 import path from 'path'
 import react from '@vitejs/plugin-react'
-import yargs from 'yargs/yargs'
+import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
 
 const SRC_DIR = path.resolve(__dirname, './src');
