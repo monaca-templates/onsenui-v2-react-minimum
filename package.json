@@ -1,7 +1,10 @@
 {
   "name": "onsenui-v2-react-minimum",
-  "version": "5.0.1",
+  "version": "6.0.0",
   "description": "",
+  "engines": {
+    "node": ">=18.16"
+  },
   "dependencies": {
     "monaca-plugin-monaca-core": "3.3.1",
     "onsenui": "~2.12.8",
