@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Page, Button, Toolbar} from 'react-onsenui';
-import {notification} from 'onsenui';
+import { Page, Button, Toolbar } from 'react-onsenui';
+import { notification } from 'onsenui';
 
 export default class App extends React.Component {
   alertPopup() {
@@ -19,8 +19,10 @@ export default class App extends React.Component {
   render() {
     return (
       <Page renderToolbar={this.renderToolbar}>
-        <div>Hello World!</div>
-        <Button onClick={this.alertPopup}>Click Me!</Button>
+        <div style={{textAlign: 'center'}}>Hello World!</div>
+        <p style={{textAlign: 'center'}}>
+          <Button onClick={this.alertPopup}>Click Me!</Button>
+        </p>
       </Page>
     );
   }
